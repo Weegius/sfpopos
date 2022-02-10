@@ -1,6 +1,6 @@
 import './App.css';
-import Title from './Title/Title';
-import './Title.css';
+import Title from './title/Title';
+import './title/Title.css';
 import POPOSList from './POPOSList/POPOSList';
 import POPOSSpace from './POPOSSpace/POPOSSpace';
 import Footer from './Footer/Footer';
