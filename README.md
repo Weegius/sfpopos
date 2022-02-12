@@ -1,1 +1,3 @@
-[https://weegius.github.io/sfpopops/] (Link to site)
+# How to use
+
+[Link to Website](https://weegius.github.io/sfpopops/)
