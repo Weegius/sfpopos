@@ -13,7 +13,7 @@ const POPOSList = () => {
     return inTitle || inAddress
   }).map((obj) => {
 
-      const { id, title, address, images, hours, features } = obj
+      const { id, title, address, images, hours} = obj
 
       return (
         <POPOSSpace
