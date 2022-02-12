@@ -1,24 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
-import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
-import About from './components/About/about'
-import POPOSList from './components/POPOSList/POPOSList'
-import POPOSDetails from './components/POPOSDetails/POPOSDetails';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./components/App";
+import reportWebVitals from "./reportWebVitals";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./components/About/about";
+import POPOSList from "./components/POPOSList/POPOSList";
+import POPOSDetails from "./components/POPOSDetails/POPOSDetails";
 
 ReactDOM.render(
   <Router>
     <Routes>
-      <Route path='/' element={<App />}>
-        <Route path='/' element={<POPOSList />} />
-        <Route path='about' element={<About />} />
-        <Route path='/details/:id' element={<POPOSDetails />} /> 
+      <Route exact path="/" element={<App />}>
+        <Route path="/" element={<POPOSList />} />
+        <Route path="about" element={<About />} />
+        <Route path="/details/:id" element={<POPOSDetails />} />
       </Route>
     </Routes>
   </Router>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

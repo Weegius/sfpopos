@@ -1,34 +1,45 @@
 import React from 'react';
 import POPOSSpace from '../POPOSSpace/POPOSSpace';
 import './POPOSList.css';
-import data from '../../sfpopos-data.json'
-import { useState } from 'react'
-
-
+import data from '../../sfpopos-data.js';
+import { useState } from 'react';
 
 const POPOSList = () => {
+  const [query, setQuery] = useState('');
 
-  const spaces = data.map((obj) => {
-    const { title, address, images, hours } = obj
+  const spaces = data.filter((obj) => {
+    const inTitle = obj.title.toLowerCase().includes(query.toLowerCase())
+    const inAddress = obj.address.toLowerCase().includes(query.toLowerCase())
+    return inTitle || inAddress
+  }).map((obj) => {
 
-    return (
-      <POPOSSpace
-        key={title}
-        name={title}
-        address={address}
-        image={images[0]}
-        time={hours}
-      />
-    )
-  })
+      const { id, title, address, images, hours, features } = obj
+
+      return (
+        <POPOSSpace
+          id={id}
+          key={`${title}-${id}`}
+          name={title}
+          address={address}
+          image={images[0]}
+          time={hours}
+        />
+      );
+    });
 
   return (
-    <div className="POPOSList">
-      { spaces }
+    <div className='POPOSList'>
+      <form className='POPOSSearch'>
+        <input
+          value={query}
+          placeholder='search'
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        <button type='submit'>Submit</button>
+      </form>
+      {spaces}
     </div>
-  )
+  );
 };
-
-
 
 export default POPOSList;

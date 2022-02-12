@@ -1,0 +1,14 @@
+.RandomSpace {
+  background-color: rgb(192, 45, 26); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid white;
+  font-weight: bold;
+  
+}
