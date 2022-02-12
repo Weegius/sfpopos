@@ -5,7 +5,7 @@ import Footer from './Footer/Footer';
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 
-const App = ({children}) => {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
