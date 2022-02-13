@@ -25,11 +25,11 @@ const POPOSList = () => {
           time={hours}
         />
       );
-    });
+  });
 
   return (
     <div className='POPOSList'>
-      <form className='POPOSSearch'>
+      <form >
         <input
           value={query}
           placeholder='search'

@@ -1,11 +1,11 @@
-import "./POPOSSpace.css";
+import './POPOSSpace.css';
 import { Link } from "react-router-dom";
 import React from "react";
 
 const POPOSSpace = (props) => {
   const { name, image, address, time, id } = props;
   return (
-    <div>
+    <div className='POPOSSpace'>
       <h1>
         <Link to={`/details/${id}`} className='POPOSSpace-title'>{name}</Link>
       </h1>

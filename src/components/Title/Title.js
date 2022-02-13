@@ -9,7 +9,7 @@ const Title = ({ title, subtitle }) => {
       <h1>{title}</h1>
       <h3 className="Subtitle">{subtitle}</h3>
 
-      <div>
+      <div className="Nav">
         <NavLink 
 	              className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
 	              to="/">List</NavLink>
