@@ -1,6 +1,5 @@
 import './App.css';
-import Title from './title/Title';
-import './title/Title.css';
+import Title from './Title/Title';
 import Footer from './Footer/Footer';
 import React from 'react';
 import { Outlet } from 'react-router-dom';
