@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Weegius/sfpopops/static/css/main.46298fe8.chunk.css",
-    "main.js": "/Weegius/sfpopops/static/js/main.2f938a5c.chunk.js",
-    "main.js.map": "/Weegius/sfpopops/static/js/main.2f938a5c.chunk.js.map",
-    "runtime-main.js": "/Weegius/sfpopops/static/js/runtime-main.3c958858.js",
-    "runtime-main.js.map": "/Weegius/sfpopops/static/js/runtime-main.3c958858.js.map",
-    "static/js/2.c2c94f97.chunk.js": "/Weegius/sfpopops/static/js/2.c2c94f97.chunk.js",
-    "static/js/2.c2c94f97.chunk.js.map": "/Weegius/sfpopops/static/js/2.c2c94f97.chunk.js.map",
-    "static/js/3.35ed35bd.chunk.js": "/Weegius/sfpopops/static/js/3.35ed35bd.chunk.js",
-    "static/js/3.35ed35bd.chunk.js.map": "/Weegius/sfpopops/static/js/3.35ed35bd.chunk.js.map",
-    "index.html": "/Weegius/sfpopops/index.html",
-    "precache-manifest.a76a723a50635fe997fd9fce8c33df21.js": "/Weegius/sfpopops/precache-manifest.a76a723a50635fe997fd9fce8c33df21.js",
-    "service-worker.js": "/Weegius/sfpopops/service-worker.js",
-    "static/css/main.46298fe8.chunk.css.map": "/Weegius/sfpopops/static/css/main.46298fe8.chunk.css.map",
-    "static/js/2.c2c94f97.chunk.js.LICENSE.txt": "/Weegius/sfpopops/static/js/2.c2c94f97.chunk.js.LICENSE.txt"
+    "main.css": "/sfpopops/static/css/main.8fe1a5b8.chunk.css",
+    "main.js": "/sfpopops/static/js/main.4e2d5be8.chunk.js",
+    "main.js.map": "/sfpopops/static/js/main.4e2d5be8.chunk.js.map",
+    "runtime-main.js": "/sfpopops/static/js/runtime-main.51400d78.js",
+    "runtime-main.js.map": "/sfpopops/static/js/runtime-main.51400d78.js.map",
+    "static/js/2.6c8568d5.chunk.js": "/sfpopops/static/js/2.6c8568d5.chunk.js",
+    "static/js/2.6c8568d5.chunk.js.map": "/sfpopops/static/js/2.6c8568d5.chunk.js.map",
+    "static/js/3.35ed35bd.chunk.js": "/sfpopops/static/js/3.35ed35bd.chunk.js",
+    "static/js/3.35ed35bd.chunk.js.map": "/sfpopops/static/js/3.35ed35bd.chunk.js.map",
+    "index.html": "/sfpopops/index.html",
+    "precache-manifest.abeb144a7e1449ce38d9a6bd1da9ec5e.js": "/sfpopops/precache-manifest.abeb144a7e1449ce38d9a6bd1da9ec5e.js",
+    "service-worker.js": "/sfpopops/service-worker.js",
+    "static/css/main.8fe1a5b8.chunk.css.map": "/sfpopops/static/css/main.8fe1a5b8.chunk.css.map",
+    "static/js/2.6c8568d5.chunk.js.LICENSE.txt": "/sfpopops/static/js/2.6c8568d5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c958858.js",
-    "static/js/2.c2c94f97.chunk.js",
-    "static/css/main.46298fe8.chunk.css",
-    "static/js/main.2f938a5c.chunk.js"
+    "static/js/runtime-main.51400d78.js",
+    "static/js/2.6c8568d5.chunk.js",
+    "static/css/main.8fe1a5b8.chunk.css",
+    "static/js/main.4e2d5be8.chunk.js"
   ]
 }
